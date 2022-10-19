@@ -1,0 +1,8 @@
+def mainClassName = "pro.legion.launchermodules.remotecontrol.RemoteControlModule"
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+jar {
+    manifest.attributes("Module-Main-Class": mainClassName)
+}

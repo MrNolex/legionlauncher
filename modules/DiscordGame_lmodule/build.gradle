@@ -1,0 +1,20 @@
+def mainClassName = "pro.legion.launchermodules.discordgame.ClientModule"
+def configClassName = "pro.legion.launchermodules.discordgame.Config"
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compileOnly project(':Launcher')
+    compileOnly ('com.github.JnCrMx:discord-game-sdk4j:v0.5.5')
+}
+
+jar {
+    manifest.attributes("Module-Main-Class": mainClassName,
+            "Module-Config-Class": configClassName,
+            "Module-Config-Name": "DiscordGame")
+}
