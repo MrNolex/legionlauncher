@@ -57,9 +57,9 @@ publishing {
             artifact sourcesJar
             artifact javadocJar
             pom {
-                name = 'GravitLauncher WebSocket API'
-                description = 'GravitLauncher WebSocket Module API'
-                url = 'https://launcher.gravit.pro'
+                name = 'Legion WebSocket API'
+                description = 'Legion WebSocket Module API'
+                url = 'https://launcher.legion.hu'
                 licenses {
                     license {
                         name = 'GNU General Public License, Version 3.0'
@@ -68,20 +68,15 @@ publishing {
                 }
                 developers {
                     developer {
-                        id = 'gravita'
-                        name = 'Gravita'
-                        email = 'gravita@gravit.pro'
-                    }
-                    developer {
-                        id = 'zaxar163'
-                        name = 'Zaxar163'
-                        email = 'zahar.vcherachny@yandex.ru'
+                        id = 'mrnolex'
+                        name = 'MrNolex'
+                        email = 'nolex@legion.hu'
                     }
                 }
                 scm {
-                    connection = 'scm:git:https://github.com/GravitLauncher/Launcher.git'
-                    developerConnection = 'scm:git:ssh://git@github.com:GravitLauncher/Launcher.git'
-                    url = 'https://launcher.gravit.pro/'
+                    connection = 'scm:git:https://github.com/MrNolex/legionlauncher.git'
+                    developerConnection = 'scm:git:ssh://git@github.com:MrNolex/legionlauncher.git'
+                    url = 'https://launcher.legion.hu/'
                 }
             }
         }
